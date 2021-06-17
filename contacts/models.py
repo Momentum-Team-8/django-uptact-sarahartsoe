@@ -32,3 +32,5 @@ class Contact(models.Model):
 class Note(models.Model):
     note_name = models.TextField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+# broken note forver :(
