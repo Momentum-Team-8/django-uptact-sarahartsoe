@@ -15,8 +15,6 @@ class ContactForm(forms.ModelForm):
             'phone_number',
             'email',
             'birthday',
+            'note',
         ]
-        model = Note
-        fields = [
-            'note_name',
-        ]
+
