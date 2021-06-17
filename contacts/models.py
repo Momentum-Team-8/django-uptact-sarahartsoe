@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.validators import RegexValidator
 from django.db.models.fields import DateField
+from django.forms import widgets
 from localflavor.us.models import USStateField, USZipCodeField
 
 
